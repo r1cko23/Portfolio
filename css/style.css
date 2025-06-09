@@ -203,6 +203,19 @@ img {
   width: 100%;
 }
 
+.nav-links .btn-primary {
+  background-color: var(--primary-color) !important;
+  color: #ffffff !important;
+  border: 1px solid var(--primary-color) !important;
+}
+
+.nav-links .btn-primary:hover {
+  background-color: var(--secondary-color) !important;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+  box-shadow: var(--card-shadow);
+}
+
 .nav-links .btn {
   margin-left: 1rem;
 }
