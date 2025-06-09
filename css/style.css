@@ -1,7 +1,7 @@
 :root {
   /* Minimalistic Color Palette */
   --primary-color: #2c2c2c;
-  --secondary-color: #1a1a1a;
+  --secondary-color: #1a2e1a;
   --accent-color: #6b6b6b;
   --dark-bg: #fafafa;
   --medium-dark-bg: #f5f5f5;
@@ -401,35 +401,24 @@ img {
 .skill-items {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .skill-item {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.skill-icon {
-  width: 10rem;
-  text-align: right;
-  font-weight: 600;
   font-size: 1.6rem;
-  color: var(--text-secondary);
+  color: var(--text-primary);
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--border-color);
+  transition: var(--transition);
 }
 
-.skill-bar {
-  flex: 1;
-  height: 0.8rem;
-  background-color: var(--border-color);
-  border-radius: 10rem;
-  overflow: hidden;
+.skill-item:last-child {
+  border-bottom: none;
 }
 
-.skill-progress {
-  height: 100%;
-  background-color: var(--primary-color);
-  border-radius: 10rem;
+.skill-item:hover {
+  color: var(--secondary-color);
+  padding-left: 1rem;
 }
 
 /* Experience Section */
