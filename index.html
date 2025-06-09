@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jericko A. Razal - Cloud Engineer & DevOps Specialist Portfolio - Experienced in AWS, Kubernetes, CI/CD, and Infrastructure Automation"
+    />
+    <title>Jericko A. Razal - Cloud Engineer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <span class="logo-text">Jericko<span>Razal</span></span>
+          </div>
+          <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hero">
+          <div class="hero-content">
+            <h1>Cloud Engineer | DevOps Specialist</h1>
+            <p class="hero-subtitle">Infrastructure Automation</p>
+            <p>
+              Dedicated Cloud Engineer with hands-on experience in AWS cloud
+              infrastructure, containerization, and Infrastructure-as-Code.
+              Specializing in automated deployment pipelines and production
+              environment management.
+            </p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn-primary">Get in touch</a>
+              <a href="#projects" class="btn btn-secondary">View my work</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="code-container">
+              <pre><code>
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: webapp
+  template:
+    metadata:
+      labels:
+        app: webapp
+    spec:
+      containers:
+      - name: webapp
+        image: webapp:latest
+        ports:
+        - containerPort: 80
+                        </code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section about">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-image">
+              <div class="image-container">
+                <!-- Placeholder for profile image -->
+                <div class="profile-placeholder"></div>
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                I'm Jericko A. Razal, a dedicated Cloud Engineer and DevOps
+                professional with hands-on experience in AWS cloud
+                infrastructure, containerization, and Infrastructure-as-Code. I
+                have a proven track record in implementing automated deployment
+                pipelines, managing production environments, and collaborating
+                with global teams.
+              </p>
+              <p>
+                My expertise spans scripting, system administration, and client
+                project delivery with strong emphasis on automation and
+                continuous improvement. I'm passionate about building scalable,
+                efficient cloud solutions that drive business success.
+              </p>
+              <div class="stats">
+                <div class="stat-item">
+                  <span class="stat-number">99.9%</span>
+                  <span class="stat-text">System Uptime</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">60%</span>
+                  <span class="stat-text">Deployment Time Reduction</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">50%+</span>
+                  <span class="stat-text">Cost Optimization</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">65+</span>
+                  <span class="stat-text">Team Members Onboarded</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="container">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="skills-container">
+            <div class="skill-category">
+              <h3>Cloud & Infrastructure</h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <div class="skill-icon">AWS</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">Azure</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 75%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">Terraform</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Containerization & Orchestration</h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <div class="skill-icon">Docker</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">Kubernetes</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">EKS</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>DevOps & Automation</h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <div class="skill-icon">GitOps/ArgoCD</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">GitHub Actions</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">Bitbucket Pipelines</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Programming & Development</h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <div class="skill-icon">Python</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">JavaScript</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">Bash/Linux</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience">
+        <div class="container">
+          <h2 class="section-title">Work Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Junior DevOps Engineer</h3>
+                <div class="company">Media Meter Inc.</div>
+                <div class="date">March 2025 – Present</div>
+                <p>
+                  Configure and maintain AWS EKS clusters for hybrid
+                  environments, design GitOps workflows with ArgoCD, manage
+                  Docker and Kubernetes deployments, and provide 24/7 technical
+                  support to development teams.
+                </p>
+                <div class="tags">
+                  <span>AWS EKS</span>
+                  <span>ArgoCD</span>
+                  <span>Kubernetes</span>
+                  <span>GitOps</span>
+                  <span>24/7 Support</span>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Freelance Web Developer</h3>
+                <div class="company">Self-Employed</div>
+                <div class="date">January 2025 – Present</div>
+                <p>
+                  Develop and deploy responsive web applications with
+                  performance optimization, implement CI/CD workflows, manage
+                  multiple client projects, and configure hosting environments
+                  with security protocols.
+                </p>
+                <div class="tags">
+                  <span>CI/CD</span>
+                  <span>Web Development</span>
+                  <span>Security</span>
+                  <span>Client Management</span>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Information Technology Intern</h3>
+                <div class="company">Viventis Search Asia</div>
+                <div class="date">September 2024 – January 2025</div>
+                <p>
+                  Led configuration and optimization of TapTalent.ai ATS for
+                  65-recruiter team, conducted platform evaluation resulting in
+                  50%+ cost reduction, and served as primary liaison between
+                  technical teams and end users.
+                </p>
+                <div class="tags">
+                  <span>System Optimization</span>
+                  <span>Cost Reduction</span>
+                  <span>Team Leadership</span>
+                  <span>ATS Platform</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <div class="image-placeholder"></div>
+              </div>
+              <div class="project-content">
+                <h3>Novo Pets Cloud-Based Booking Platform</h3>
+                <p>
+                  Designed and deployed serverless infrastructure optimizing for
+                  speed and security. Developed CI/CD workflows via GitHub
+                  Actions with automated deployment, achieving 99.9% uptime with
+                  real-time scheduling capabilities.
+                </p>
+                <div class="tags">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>Serverless</span>
+                  <span>GitHub Actions</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <div class="image-placeholder"></div>
+              </div>
+              <div class="project-content">
+                <h3>Ecological Solutions Corporate Website</h3>
+                <p>
+                  Built and hosted high-performance website with custom domain
+                  configuration. Applied network security principles including
+                  HTTPS enforcement and set up Git-based deployment pipeline for
+                  rapid updates.
+                </p>
+                <div class="tags">
+                  <span>Cloud Hosting</span>
+                  <span>Security</span>
+                  <span>Automated Deployment</span>
+                  <span>Performance</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <div class="image-placeholder"></div>
+              </div>
+              <div class="project-content">
+                <h3>Sports Information Management System</h3>
+                <p>
+                  Developed comprehensive management system using JavaScript and
+                  Supabase. Created centralized system for multi-level
+                  organizational management with ranking algorithms and
+                  real-time synchronization.
+                </p>
+                <div class="tags">
+                  <span>JavaScript</span>
+                  <span>Supabase</span>
+                  <span>Real-time</span>
+                  <span>Database</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2 class="section-title">Get in Touch</h2>
+          <div class="contact-container">
+            <div class="contact-info">
+              <h3>Contact Information</h3>
+              <p>
+                Ready to bring cloud engineering expertise to your team. Let's
+                discuss how I can help optimize your infrastructure and automate
+                your deployment processes.
+              </p>
+              <ul class="contact-list">
+                <li>
+                  <div class="contact-icon">📧</div>
+                  <div class="contact-text">jericko.rzl@gmail.com</div>
+                </li>
+                <li>
+                  <div class="contact-icon">📱</div>
+                  <div class="contact-text">(+63) 917-525-7659</div>
+                </li>
+                <li>
+                  <div class="contact-icon">📍</div>
+                  <div class="contact-text">Quezon City, NCR, Philippines</div>
+                </li>
+              </ul>
+              <div class="social-links">
+                <a
+                  href="https://linkedin.com/in/jericko-razal"
+                  class="social-link"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+                <a
+                  href="https://github.com/r1cko23"
+                  class="social-link"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <span class="logo-text">Jericko<span>Razal</span></span>
+          </div>
+          <div class="footer-copyright">
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Jericko A. Razal - Cloud Engineer Portfolio. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
