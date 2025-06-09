@@ -1,114 +1,185 @@
-# DevOps Engineer Portfolio
+# Jericko A. Razal - Cloud Engineer Portfolio
 
-A modern, responsive portfolio website for DevOps and Cloud Engineers, designed with the latest web trends for 2025.
+A modern, responsive portfolio website showcasing the expertise of Jericko A. Razal, a Cloud Engineer and DevOps Specialist with hands-on experience in AWS, Kubernetes, and Infrastructure-as-Code.
 
-## Features
+## 🚀 Live Demo
 
-- Clean, modern design with smooth animations
-- Fully responsive layout for all devices
-- Interactive elements with JavaScript
-- Sections for showcasing skills, experience, and projects
-- Contact form with validation
-- Mobile-friendly navigation
-- Performance optimized
+- **Production:** [https://jericko-razal-portfolio.vercel.app](https://your-vercel-url.vercel.app) _(Will be available after deployment)_
+- **GitHub:** [https://github.com/r1cko23/Portfolio](https://github.com/r1cko23/Portfolio)
 
-## Technical Details
+## ✨ Features
 
-This portfolio site is built with:
+- Clean, minimalistic design with professional aesthetics
+- Fully responsive layout optimized for all devices
+- Interactive elements with smooth animations
+- Comprehensive sections: About, Skills, Experience, Projects, Contact
+- Contact form with modern styling
+- Mobile-first responsive navigation
+- Performance optimized with caching headers
+- SEO-friendly structure
 
-- Semantic HTML5
-- Modern CSS3 with custom properties (variables)
-- Vanilla JavaScript
-- Flexbox and CSS Grid for layouts
-- Mobile-first responsive design
-- Smooth scrolling and animations
+## 🛠 Technical Stack
 
-## Getting Started
+This portfolio is built with:
 
-1. Clone this repository:
+- **Frontend:** Semantic HTML5, Modern CSS3, Vanilla JavaScript
+- **Styling:** CSS Custom Properties, Flexbox, CSS Grid
+- **Design:** Minimalistic color palette, clean typography
+- **Deployment:** Vercel with custom configuration
+- **Performance:** Optimized assets, caching strategies
 
+## 🎨 Design Philosophy
+
+The portfolio follows a minimalistic design approach with:
+
+- Neutral color palette (whites, grays, charcoals)
+- Clean typography for excellent readability
+- Subtle shadows and borders for depth
+- Professional, corporate-appropriate aesthetic
+- Focus on content over flashy design
+
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. **Fork/Clone this repository**
+2. **Connect to Vercel:**
+
+   - Visit [vercel.com](https://vercel.com)
+   - Sign up/login with your GitHub account
+   - Click "New Project"
+   - Import this repository
+   - Click "Deploy"
+
+3. **Automatic Deployments:**
+   - Vercel will automatically deploy on every push to main branch
+   - Custom domain can be configured in Vercel dashboard
+
+### Manual Deployment
+
+1. Install Vercel CLI:
+
+   ```bash
+   npm install -g vercel
    ```
-   git clone https://github.com/yourusername/devops-portfolio.git
+
+2. Deploy:
+   ```bash
+   vercel --prod
    ```
 
-2. Navigate to the project folder:
+### Local Development
 
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/r1cko23/Portfolio.git
+   cd Portfolio
    ```
-   cd devops-portfolio
+
+2. Start local server:
+
+   ```bash
+   python3 -m http.server 8000
+   # or
+   npm run dev
    ```
 
-3. Open `index.html` in your browser to view the portfolio.
+3. Open http://localhost:8000 in your browser
 
-4. To edit the portfolio for your own use:
-   - Update the text content in `index.html`
-   - Customize colors and styles in `css/style.css`
-   - Modify animations and interactions in `js/main.js`
+## 📁 Project Structure
 
-## Customization
+```
+Portfolio/
+├── index.html              # Main HTML file
+├── css/
+│   └── style.css           # Minimalistic styling
+├── js/
+│   └── main.js            # Interactive functionality
+├── vercel.json            # Vercel deployment configuration
+├── package.json           # Project metadata and scripts
+├── .vercelignore         # Files to exclude from deployment
+├── .gitignore            # Git ignore rules
+└── README.md             # Project documentation
+```
+
+## 🎯 Key Highlights
+
+- **99.9%** System Uptime Maintained
+- **60%** Deployment Time Reduction
+- **50%+** Cost Optimization Achieved
+- **65+** Team Members Onboarded
+- **24/7** Production Support Experience
+
+## 🔧 Customization
 
 ### Colors and Theme
 
-You can easily change the color scheme by editing the CSS variables in `css/style.css`:
+The minimalistic color scheme can be customized in `css/style.css`:
 
 ```css
 :root {
-  --primary-color: #0b8d0b; /* Main brand color */
-  --secondary-color: #242146; /* Secondary brand color */
-  --accent-color: #f7df1e; /* Accent highlights */
-  --dark-bg: #161b22; /* Dark background */
-  --medium-dark-bg: #1f2937; /* Medium dark background */
-  --light-bg: #f9fafb; /* Light background */
-  /* ... other variables ... */
+  --primary-color: #2c2c2c; /* Main dark text */
+  --secondary-color: #1a1a1a; /* Darker text */
+  --accent-color: #6b6b6b; /* Subtle gray */
+  --light-bg: #ffffff; /* Clean white */
+  --dark-bg: #fafafa; /* Light gray */
+  --border-color: #e5e5e5; /* Subtle borders */
 }
 ```
 
-### Profile and Content
+### Content Updates
 
-Replace the placeholder content in `index.html` with your own:
+To personalize this portfolio:
 
-- Update your name, role, and tagline
-- Replace the "About Me" text
-- Update skills, experience, and project details
-- Add your contact information and social links
+1. **Profile Information:** Update name, title, and contact details in `index.html`
+2. **About Section:** Replace with your professional summary
+3. **Skills:** Update technical skills and proficiency levels
+4. **Experience:** Add your work history and achievements
+5. **Projects:** Showcase your key projects and technologies
+6. **Contact:** Update email, phone, and social media links
 
-### Adding Projects
+## 🌐 Browser Support
 
-To add a new project, copy and paste the following HTML structure in the projects section:
+Tested and optimized for:
 
-```html
-<div class="project-card">
-  <div class="project-image">
-    <div class="image-placeholder"></div>
-    <!-- or use an actual image: -->
-    <!-- <img src="path/to/image.jpg" alt="Project name"> -->
-  </div>
-  <div class="project-content">
-    <h3>Project Title</h3>
-    <p>Project description goes here</p>
-    <div class="tags">
-      <span>Tag 1</span>
-      <span>Tag 2</span>
-      <span>Tag 3</span>
-    </div>
-  </div>
-</div>
-```
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
-## Browser Support
+## 📈 Performance Features
 
-This portfolio is compatible with all modern browsers:
+- Optimized images and assets
+- CSS and JS caching headers
+- Minimized HTTP requests
+- Mobile-first responsive design
+- Fast loading times
 
-- Chrome
-- Firefox
-- Safari
-- Edge
+## 🔒 Security Features
 
-## License
+- Content Security Policy headers
+- XSS protection
+- Frame options security
+- Secure referrer policy
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📞 Contact
 
-## Acknowledgements
+**Jericko A. Razal**
 
-- Google Fonts for the typography
-- Inspiration from modern portfolio designs
-- DevOps community for content inspiration
+- Email: jericko.rzl@gmail.com
+- Phone: (+63) 917-525-7659
+- LinkedIn: [jericko-razal](https://linkedin.com/in/jericko-razal)
+- GitHub: [r1cko23](https://github.com/r1cko23)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgements
+
+- **Inter Font** from Google Fonts for clean typography
+- **Minimalist Design** principles for professional aesthetics
+- **Cloud Engineering** community for inspiration
+- **DevOps** best practices in development workflow

@@ -1,0 +1,39 @@
+{
+  "name": "jericko-razal-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Jericko A. Razal - Cloud Engineer & DevOps Specialist",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "start": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build step required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "cloud-engineer",
+    "devops",
+    "aws",
+    "kubernetes",
+    "terraform",
+    "frontend",
+    "static-site"
+  ],
+  "author": {
+    "name": "Jericko A. Razal",
+    "email": "jericko.rzl@gmail.com",
+    "url": "https://github.com/r1cko23"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r1cko23/Portfolio.git"
+  },
+  "homepage": "https://github.com/r1cko23/Portfolio#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  }
+}
